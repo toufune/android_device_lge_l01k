@@ -16,6 +16,9 @@ include packages/apps/FelicaService/device.mk
 PRODUCT_PACKAGES += \
 	libhidlbase_shim
 
+PRODUCT_COPY_FILES += \
+    frameworks/native/data/etc/android.hardware.nfc.hcef.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.nfc.hcef.xml
+
 PRODUCT_SOONG_NAMESPACES += \
     $(DEVICE_PATH)
 
