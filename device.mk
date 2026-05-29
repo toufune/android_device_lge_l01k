@@ -9,6 +9,9 @@ DEVICE_PATH := device/lge/l01k
 # Inherit common repository
 $(call inherit-product, device/lge/joan-common/joan-common.mk)
 
+# Felica
+include packages/apps/FelicaService/device.mk
+
 # NFC
 PRODUCT_PACKAGES += \
 	libhidlbase_shim

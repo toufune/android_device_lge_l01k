@@ -1,6 +1,27 @@
 # All unpinned blobs below are from L-01K L-01K20k
 # joan_dcm_jp-user 9 PKQ1.190414.001 20072184679ed release-keys
 
+# FeliCa
+product/app/MobileFeliCaMenuApp/MobileFeliCaMenuApp.apk;PRESIGNED
+product/app/MobileFeliCaSettingApp/MobileFeliCaSettingApp.apk;PRESIGNED
+product/app/MobileFeliCaWebPlugin/MobileFeliCaWebPlugin.apk;PRESIGNED
+product/app/MobileFeliCaWebPluginBoot/MobileFeliCaWebPluginBoot.apk;PRESIGNED
+product/etc/felica_access.xml
+product/etc/permissions/com.felicanetworks.felica.xml
+product/etc/permissions/com.felicanetworks.felicaextra.xml
+product/etc/permissions/com.felicanetworks.mfc.xml
+product/etc/permissions/com.felicanetworks.mfm.main.xml
+product/framework/com.felicanetworks.felica.jar
+product/framework/com.felicanetworks.felicaextra.jar
+product/priv-app/MobileFeliCaClient/MobileFeliCaClient.apk;PRESIGNED;SKIPAPKCHECKS
+product/priv-app/MobileFeliCaMenuMainApp/MobileFeliCaMenuMainApp.apk;PRESIGNED;SKIPAPKCHECKS
+system/etc/felica/common.cfg
+system/etc/felica/config_felica.xml
+system/etc/felica/felica.cfg
+system/etc/felica/mfc_push.cfg
+system/etc/felica/mfm.cfg
+system/etc/felica/mfs.cfg
+
 # Graphics (Firmware)
 vendor/firmware/a540_zap.b00
 vendor/firmware/a540_zap.b01
